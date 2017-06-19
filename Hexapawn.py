@@ -242,7 +242,6 @@ class Hexapawn:
         :param white: If it is a white piece
         :return: None
         """
-        self.numpy_board[piece] = 0
         if white:
             self.white_pieces.remove(piece)
         else:

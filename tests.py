@@ -124,6 +124,5 @@ class MoveUndo(unittest.TestCase):
         assert self.black_start == hexapawn.get_char_board()
 
 
-
 if __name__ == "__main__":
     unittest.main()
